@@ -11,11 +11,11 @@
             <ul>
               <li>
                 <span>組數(必填)：</span>
-                <span><input type="number" class="lottery-no" v-model="group_num" min="1"></span>
+                <span><input type="number" class="lottery-no" v-model="group_num" min="1" max="3000"></span>
               </li>
               <li>
                 <span>長度(必填)：</span>
-                <span><input type="number" class="lottery-no" v-model="length_num" min="1"></span>
+                <span><input type="number" class="lottery-no" v-model="length_num" min="1" max="30"></span>
               </li>
               <li>
                 <span>阿拉伯數字(0~9)</span>
